@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Favorite Things</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Favorite Things</h1>
+
+      <form id="favoriteThings">
+        <div class="form-group" id="color-input">
+          <label class="control-label" for="color">Favorite color?</label>
+          <input id="color" type="text" class="form-control">
+        </div>
+        <div class="form-group" id="classicalElement-input">
+          <label class="control-label" for="classicalElement">Favorite classical element (western or eastern)?</label>
+          <input id="classicalElement" type="text" class="form-control">
+        </div>
+        <div class="form-group" id="chemicalElement-input">
+          <label class ="control-label" for="chemicalElement">Favorite chemical element?</label>
+          <input id="chemicalElement" type="text" class="form-control">
+        </div>
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+
+      <div id="results">
+        <p><span id="array2"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
